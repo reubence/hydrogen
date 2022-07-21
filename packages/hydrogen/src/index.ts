@@ -44,7 +44,7 @@ export {useRequestContext} from './foundation/useRequestContext';
 export {useServerAnalytics} from './foundation/Analytics/hook';
 export {ShopifyAnalytics} from './foundation/Analytics/connectors/Shopify/ShopifyAnalytics.server';
 export {ShopifyAnalyticsConstants} from './foundation/Analytics/connectors/Shopify/const';
-export {useSession} from './foundation/useSession/useSession';
+export {useSession, useFlashSession} from './foundation/useSession/useSession';
 export {Cookie} from './foundation/Cookie/Cookie';
 
 /**
